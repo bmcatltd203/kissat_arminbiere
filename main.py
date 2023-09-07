@@ -28,6 +28,7 @@ class App:
         self.master = master
         self.master.title('Kissat GUI')
         self.master.geometry('900x600')
+        self.master.geometry('900x600')
         self.master.resizable(False, False)
 
         self.version_input = tk.StringVar()
